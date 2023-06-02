@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados - Contra el Piso</title>
+    <link rel="stylesheet" href="../css/resultados.css">
+    <link rel="shortcut icon" href="../img/logo/logo.png" type="image/x-icon">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="../index.html">
+                <img src="../img/logo/logo.png" alt="logo contra el piso" width="50" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="fixture.html">Fixture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="boletines.html">Boletines</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tabla de posiciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-dark" href="posiciones-primera.html">Primera División</a>
+                            </li>
+                            <li><a class="dropdown-item text-dark" href="posiciones-segunda.html">Segunda División</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tabla de goleadores
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-dark" href="goleadores-primera.html">Primera División</a>
+                            </li>
+                            <li><a class="dropdown-item text-dark" href="goleadores-segunda.html">Segunda División</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Resultados
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha1.html">Fecha 1</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha2.html">Fecha 2</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha3.html">Fecha 3</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha4.html">Fecha 4</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha5.html">Fecha 5</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha6.html">Fecha 6</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha7.html">Fecha 7</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha8.html">Fecha 8</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha9.html">Fecha 9</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha10.html">Fecha 10</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha11.html">Fecha 11</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha12.html">Fecha 12</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="reportajes.html">Reportajes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Jugá con nosotros
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-dark" href="prode.html">Prode</a></li>
+                            <li><a class="dropdown-item text-dark" href="ranking.html">Ranking</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+
+    <header>
+        <!--CARUSEL EQUIPOS-->
+        <div class="equipos">
+            <div class="equipos-track">
+                <div class="equipo">
+                    <img src="../img/Equipos/italo.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/paz.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/byn.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/sporting.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/hertz.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/estrella.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/bombal.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/peyrano.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/olimpia.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/nuevo_alberdi.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/acebal.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/sanmartin.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/ifc.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/argentinos.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/losandes.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/carreras.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/ffbc.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/italo.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/paz.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/byn.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/sporting.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/hertz.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/estrella.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/bombal.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/peyrano.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/olimpia.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/nuevo_alberdi.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/acebal.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/sanmartin.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/ifc.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/argentinos.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/losandes.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/carreras.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/ffbc.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <hr>
+
+    <section id="resultados">
+        <table>
+            <tr>
+                <th colspan="7">RESULTADOS FECHA 11 - PRIMERA DIVISIÓN</th>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/peyrano.png" alt="" width="30" height="30"></td>
+                <td>B. RIVADAVIA</td>
+                <td>0</td>
+                <td>-</td>
+                <td>1</td>
+                <td>ITALO ARGENTINO</td>
+                <td><img src="../img/equipos/italo.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/nuevo_alberdi.png" alt="" width="30" height="30"></td>
+                <td>NUEVO ALBERDI</td>
+                <td>1</td>
+                <td>-</td>
+                <td>1</td>
+                <td>ESTRELLA DEL SUR</td>
+                <td><img src="../img/equipos/estrella.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/sanmartin.png" alt="" width="30" height="30"></td>
+                <td>SAN MARTIN</td>
+                <td>2</td>
+                <td>-</td>
+                <td>1</td>
+                <td>SPORTING CS</td>
+                <td><img src="../img/equipos/sporting.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/argentinos.png" alt="" width="30" height="30"></td>
+                <td>ARGENTINO</td>
+                <td>2</td>
+                <td>-</td>
+                <td>0</td>
+                <td>BLANCO Y NEGRO</td>
+                <td><img src="../img/equipos/byn.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/carreras.png" alt="" width="30" height="30"></td>
+                <td>CARRERAS AC</td>
+                <td>2</td>
+                <td>-</td>
+                <td>2</td>
+                <td>ATL. PAZ</td>
+                <td><img src="../img/equipos/paz.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/losandes.png" alt="" width="30" height="30"></td>
+                <td>LOS ANDES</td>
+                <td>2</td>
+                <td>-</td>
+                <td>1</td>
+                <td>EDUARDO HERTZ</td>
+                <td><img src="../img/equipos/hertz.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/ifc.png" alt="" width="30" height="30"></td>
+                <td>INDEPENDIENTE FC</td>
+                <td>1</td>
+                <td>-</td>
+                <td>0</td>
+                <td>SPORTIVO BOMBAL</td>
+                <td><img src="../img/equipos/bombal.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/acebal.png" alt="" width="30" height="30"></td>
+                <td>ATL. ACEBAL</td>
+                <td>1</td>
+                <td>-</td>
+                <td>0</td>
+                <td>OLIMPIA</td>
+                <td><img src="../img/equipos/olimpia.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td colspan="7">LIBRE : FIRMAT FBC</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <table>
+            <tr>
+                <th colspan="7">RESULTADOS FECHA 11 - SEGUNDA DIVISIÓN</th>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/peyrano.png" alt="" width="30" height="30"></td>
+                <td>B. RIVADAVIA</td>
+                <td>1</td>
+                <td>-</td>
+                <td>2</td>
+                <td>ITALO ARGENTINO</td>
+                <td><img src="../img/equipos/italo.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/nuevo_alberdi.png" alt="" width="30" height="30"></td>
+                <td>NUEVO ALBERDI</td>
+                <td>0</td>
+                <td>-</td>
+                <td>2</td>
+                <td>ESTRELLA DEL SUR</td>
+                <td><img src="../img/equipos/estrella.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/sanmartin.png" alt="" width="30" height="30"></td>
+                <td>SAN MARTIN</td>
+                <td>2</td>
+                <td>-</td>
+                <td>3</td>
+                <td>SPORTING CS</td>
+                <td><img src="../img/equipos/sporting.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/argentinos.png" alt="" width="30" height="30"></td>
+                <td>ARGENTINO</td>
+                <td>0</td>
+                <td>-</td>
+                <td>0</td>
+                <td>BLANCO Y NEGRO</td>
+                <td><img src="../img/equipos/byn.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/carreras.png" alt="" width="30" height="30"></td>
+                <td>CARRERAS AC</td>
+                <td>0</td>
+                <td>-</td>
+                <td>5</td>
+                <td>ATL. PAZ</td>
+                <td><img src="../img/equipos/paz.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/losandes.png" alt="" width="30" height="30"></td>
+                <td>LOS ANDES</td>
+                <td>3</td>
+                <td>-</td>
+                <td>1</td>
+                <td>EDUARDO HERTZ</td>
+                <td><img src="../img/equipos/hertz.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/ifc.png" alt="" width="30" height="30"></td>
+                <td>INDEPENDIENTE FC</td>
+                <td>0</td>
+                <td>-</td>
+                <td>3</td>
+                <td>SPORTIVO BOMBAL</td>
+                <td><img src="../img/equipos/bombal.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td><img src="../img/equipos/acebal.png" alt="" width="30" height="30"></td>
+                <td>ATL. ACEBAL</td>
+                <td>2</td>
+                <td>-</td>
+                <td>1</td>
+                <td>OLIMPIA</td>
+                <td><img src="../img/equipos/olimpia.png" alt="" width="30" height="30"></td>
+            </tr>
+            <tr>
+                <td colspan="7">LIBRE : FIRMAT FBC</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer id="footer">
+        <div class="contenedor">
+            <h3 class="titulo-seccion">¡GRACIAS POR VISITARNOS!</h3>
+            <p>&copy;Copyright ContraelPiso2023</p>
+            <p class="desarrollo">Desarrollo Web: Roncoroni Tomás</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

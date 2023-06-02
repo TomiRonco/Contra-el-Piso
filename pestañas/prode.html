@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prode - Contra el Piso</title>
+    <link rel="stylesheet" href="../css/instrucciones.css">
+    <link rel="shortcut icon" href="../img/logo/logo.png" type="image/x-icon">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="../index.html">
+                <img src="../img/logo/logo.png" alt="logo contra el piso" width="50" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="fixture.html">Fixture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="boletines.html">Boletines</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tabla de posiciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-dark" href="posiciones-primera.html">Primera División</a>
+                            </li>
+                            <li><a class="dropdown-item text-dark" href="posiciones-segunda.html">Segunda División</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tabla de goleadores
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-dark" href="goleadores-primera.html">Primera División</a>
+                            </li>
+                            <li><a class="dropdown-item text-dark" href="goleadores-segunda.html">Segunda División</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Resultados
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha1.html">Fecha 1</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha2.html">Fecha 2</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha3.html">Fecha 3</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha4.html">Fecha 4</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha5.html">Fecha 5</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha6.html">Fecha 6</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha7.html">Fecha 7</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha8.html">Fecha 8</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha9.html">Fecha 9</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha10.html">Fecha 10</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha11.html">Fecha 11</a></li>
+                            <li><a class="dropdown-item text-dark" href="resultado-fecha12.html">Fecha 12</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="reportajes.html">Reportajes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Jugá con nosotros
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-dark" href="prode.html">Prode</a></li>
+                            <li><a class="dropdown-item text-dark" href="ranking.html">Ranking</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+
+    <header>
+        <!--CARUSEL EQUIPOS-->
+        <div class="equipos">
+            <div class="equipos-track">
+                <div class="equipo">
+                    <img src="../img/Equipos/italo.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/paz.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/byn.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/sporting.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/hertz.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/estrella.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/bombal.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/peyrano.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/olimpia.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/nuevo_alberdi.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/acebal.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/sanmartin.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/ifc.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/argentinos.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/losandes.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/carreras.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/ffbc.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/italo.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/paz.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/byn.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/sporting.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/hertz.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/estrella.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/bombal.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/peyrano.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/olimpia.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/nuevo_alberdi.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/acebal.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/sanmartin.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/ifc.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/argentinos.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/losandes.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/carreras.png" alt="">
+                </div>
+                <div class="equipo">
+                    <img src="../img/Equipos/ffbc.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <hr>
+
+
+    <section id="instrucciones">
+        <div class="contenedor">
+            <p class="importante">IMPORTANTE</p>
+            <h1 class="titulo-seccion">REFERENCIAS</h1>
+            <ul>
+                <li>
+                    <p>Completar nombre, celular y localidad (OBLIGATORIO)</p>
+                </li>
+                <li>
+                    <p>No es obligatorio poner usuario de instagram</p>
+                </li>
+                <li>
+                    <p>Rellenando la casilla de "E-mail", podés guardar tu prode</p>
+                </li>
+                <li>
+                    <p>LOS DATOS PEDIDOS SON PARA PODER CONTACTAR AL GANADOR</p>
+                </li>
+                <li>
+                    <p>Son 10pts por acertar equipo y resultado</p>
+                </li>
+                <li>
+                    <p>Son 5pts si solo se acierta equipo ganador o empate, si fuera el caso</p>
+                </li>
+                <li>
+                    <p>CADA 4 FECHAS SE ENTREGA UN PREMIO A LA PERSONA QUE MAYOR PUNTAJE OBTENGA</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <hr>
+
+     <section id="prode">
+        <form id="form" action="https://formsubmit.co/contraelpisoalcorta@gmail.com" method="POST">
+            <table id="prode">
+                <legend class="titulo-prode">PRODE FECHA N°14</legend>
+                <tr>
+                    <td colspan="2">LOCAL</td>
+                    <td colspan="2">VISITANTE</td>
+                </tr>
+                <tr>
+                    <td>ITALO ARGENTINO</td>
+                    <td><input type="text" name="italo_argentino" id="resultados" required></td>
+                    <td><input type="text" name="independiente_fc" id="resultados" required></td>
+                    <td>INDEPENDIENTE FC</td>
+                </tr>
+                <tr>
+                    <td>ATL. ACEBAL</td>
+                    <td><input type="text" name="acebal" id="resultados" required></td>
+                    <td><input type="text" name="los_andes" id="resultados" required></td>
+                    <td>LOS ANDES</td>
+                </tr>
+                <tr>
+                    <td>SPORTIVO BOMBAL</td>
+                    <td><input type="text" name="bombal" id="resultados" required></td>
+                    <td><input type="text" name="carreras" id="resultados" required></td>
+                    <td>CARRERAS AC</td>
+                </tr>
+                <tr>
+                    <td>EDUARDO HERTZ</td>
+                    <td><input type="text" name="eduardo_hertz" id="resultados" required></td>
+                    <td><input type="text" name="argentino" id="resultados" required></td>
+                    <td>ARGENTINO</td>
+                </tr>
+                <tr>
+                    <td>FIRMAT FBC</td>
+                    <td><input type="text" name="firmat_fbc" id="resultados" required></td>
+                    <td><input type="text" name="san_martin" id="resultados" required></td>
+                    <td>SAN MARTIN</td>
+                </tr>
+                <tr>
+                    <td>ATL. PAZ</td>
+                    <td><input type="text" name="atl_paz" id="resultados" required></td>
+                    <td><input type="text" name="nuevo_alberdi" id="resultados" required></td>
+                    <td>NUEVO ALBERDI</td>
+                </tr>
+                <tr>
+                    <td>BLANCO Y NEGRO</td>
+                    <td><input type="text" name="blanco_y_negro" id="resultados" required></td>
+                    <td><input type="text" name="peyrano" id="resultados" required></td>
+                    <td>B. RIVADAVIA</td>
+                </tr>
+                <tr>
+                    <td>SPORTING CS</td>
+                    <td><input type="text" name="sporting_cs" id="resultados" required></td>
+                    <td><input type="text" name="estrella_del_sur" id="resultados" required></td>
+                    <td>ESTRELLA DEL SUR</td>
+                </tr>
+                <tr>
+                    <td colspan="7">LIBRE: OLIMPIA</td>
+                </tr>
+
+
+            </table>
+
+            <div id="datos">
+                <input type="text" name="nombre" required="" placeholder="Nombre completo">
+                <br>
+                <input type="text" name="instagram" placeholder="Instagram">
+                <br>
+                <input type="email" name="email" placeholder="Correo electrónico">
+                <br>
+                <input type="tel" name="cel" required="" placeholder="Celular">
+                <br>
+                <input type="text" name="localidad" required="" placeholder="Localidad">
+
+                <input type="submit" name="enviar" value="Enviar" id="boton">
+            </div>
+
+            <input type="hidden" name="_autoresponse"
+                value="¡Gracias por completar el prode! Te dejamos una copia del mismo">
+            <input type="hidden" name="_next" value="https://contraelpiso2-alcorta.netlify.app/">
+
+        </form>
+    </section>
+
+    <!-- <section id="finalizado">
+        <h1>Finalizado...</h1>
+    </section> -->
+
+
+    <footer id="footer">
+        <div class="contenedor">
+            <h3 class="titulo-seccion">¡GRACIAS POR VISITARNOS!</h3>
+            <p>&copy;Copyright ContraelPiso2023</p>
+            <p class="desarrollo">Desarrollo Web: Roncoroni Tomás</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
